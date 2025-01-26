@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <bool.h>
 char* welcome() {
     return "Welcome to Code Radar!";
 }
@@ -7,7 +7,8 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if(a!>0){
+    bool ans= a>0;
+    if(!ans){
         printf("False");
     }else{
         printf("True");
