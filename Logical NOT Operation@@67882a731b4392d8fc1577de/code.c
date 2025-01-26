@@ -8,9 +8,9 @@ int main() {
     scanf("%d",&a);
     int ans= a>0;
     if(ans!=1){
-        printf("False");
-    }else{
         printf("True");
+    }else{
+        printf("False");
     }
     return 0;
 }
