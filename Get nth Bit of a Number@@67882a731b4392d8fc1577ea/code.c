@@ -8,9 +8,9 @@ int main() {
     scanf("%d %d",&n,&shift);
     int bitmask= 1<<shift;
     if(n&bitmask==1){
-        printf(1);
+        printf("%d",1);
     }else{
-        printf(0);
+        printf("%d",0);
     }
     printf("%s", welcome());
     return 0;
