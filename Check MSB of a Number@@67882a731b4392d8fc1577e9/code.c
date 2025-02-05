@@ -10,6 +10,11 @@ int main() {
     while(n>>1){
         n>>=1;
     }
+    if(n==1){
+        printf("Set");
+    }else{
+        printf("Not Set");
+    }
     printf("%d", n);
     return 0;
 }
