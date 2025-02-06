@@ -9,12 +9,12 @@ int main() {
     scanf("%d",&num);
     if(num%4==0){
         if(num%100==0 && num%400==0){
-            printf("True");
+            printf("Leap Year");
         }else{
-            printf("False");
+            printf("Not a Leap Year");
         }
     }else{
-        printf("False");
+        printf("Not a Leap Year");
     }
     return 0;
 }
