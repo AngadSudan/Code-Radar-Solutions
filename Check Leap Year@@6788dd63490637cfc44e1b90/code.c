@@ -8,7 +8,11 @@ int main() {
     int num;
     scanf("%d",&num);
     if(num%4==0){
-        printf("True");
+        if(num%100==0 && num%400==0){
+            printf("True");
+        }else{
+            printf("False");
+        }
     }else{
         printf("False");
     }
