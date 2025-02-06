@@ -11,9 +11,9 @@ int main() {
     if(num%5==0 && num%3==0){
         printf("Divisible by Both");
     }else if(num%5==0){
-        printf("Divisible By 5");
+        printf("Divisible by 5");
     }else{
-        printf("Divisible By 3");
+        printf("Divisible by 3");
     }
     return 0;
 }
