@@ -14,7 +14,7 @@ int main() {
         }
     }
 
-    if(a-'a'>=0 && a-'a'<=9){
+    if((a-'a')>=0 && (a-'a')<=9){
         printf("Digit");
     }else{
         printf("Special Character");
