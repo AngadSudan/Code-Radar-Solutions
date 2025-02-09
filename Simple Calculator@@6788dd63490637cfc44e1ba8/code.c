@@ -19,9 +19,9 @@ int main() {
         case '*':
             printf("%d",num1*num2);
             break;
-        // case '/':
-        //     printf("%d",(int)num1/num2);
-        //     break;
+        case '/':
+            printf("%d",num1/num2);
+            break;
         default:
             printf("error");
     }
