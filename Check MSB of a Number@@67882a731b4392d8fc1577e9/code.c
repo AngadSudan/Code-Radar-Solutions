@@ -9,11 +9,10 @@ int main() {
     scanf("%d",&n);
     
 
-    if((n<<(n-1) & 1)==1){
+    if((n>>31 & 1)==1){
         printf("Set");
     }else{
         printf("Not Set");
     }
-    printf("%d", n);
     return 0;
 }
