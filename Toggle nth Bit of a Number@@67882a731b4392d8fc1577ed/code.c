@@ -5,7 +5,7 @@ int main(){
     scanf("%d %d",&num,&digits);
 
     int bitmask= (1<<digit);
-    printf("%d",bitmask ^ num);
+    printf("%d",(bitmask ^ num));
 
     return 0;
 }
