@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void main(){
     int num;
@@ -6,7 +7,7 @@ void main(){
 
     int sum=0;
     while(num!=0){
-        sum+= 2* (num<<1);
+        sum+= pow(2,(num<<1));
         num= num<<1;
     }
     printf("%d",sum);
