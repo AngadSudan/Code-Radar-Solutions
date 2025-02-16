@@ -7,10 +7,9 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    while(n>>1){
-        n= n>>1;
-    }
-    if(n==1){
+    
+
+    if((n<<(n-1) & 1)==1){
         printf("Set");
     }else{
         printf("Not Set");
