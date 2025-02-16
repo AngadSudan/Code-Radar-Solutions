@@ -1,6 +1,12 @@
 #include <stdio.h>
-#include <math.h>
 
+int pow(int a, int b){
+    int prod=1;
+    for(int i=0;i<b;i++){
+        prod*= a;
+    }
+    return prod;
+}
 void main(){
     int num;
     scanf("%d",&num);
