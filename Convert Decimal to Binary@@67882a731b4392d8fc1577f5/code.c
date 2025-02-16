@@ -10,5 +10,4 @@ void main(){
         num >>= 1;
     }
     printf("%d",sum);
-    return 0;
 }
