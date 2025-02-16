@@ -3,7 +3,11 @@
 int main(){
     int num;
     scanf("%d",&num);
-    int bitmask= (num&-num);
-    printf("%d",bitmask);
+    int position = 0;
+    while ((num & 1) == 0) {  
+        num >>= 1;
+        position++;
+    }
+    printf("%d", position);
     return 0;
 }
