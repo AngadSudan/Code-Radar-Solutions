@@ -9,5 +9,5 @@ void main(){
         sum += (1 << (num * 2));  
         num >>= 1;
     }
-    printf("%d",sum);
+    printf("%d",num);
 }
