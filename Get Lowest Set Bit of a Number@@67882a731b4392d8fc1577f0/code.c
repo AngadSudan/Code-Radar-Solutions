@@ -3,7 +3,7 @@
 int main(){
     int num;
     scanf("%d",&num);
-    num= (num&-num);
-    printf("%d",num & num);
+    int bitmask= (num&-num);
+    printf("%d",bitmask & bitmask);
     return 0;
 }
