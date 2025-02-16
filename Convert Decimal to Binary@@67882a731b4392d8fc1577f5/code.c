@@ -12,9 +12,9 @@ void main(){
     scanf("%d",&num);
 
     int sum=0;
-    while(num!=0){
-        sum+= pow(2,(num<<1));
-        num= num<<1;
+    while (num != 0) {
+        sum += (1 << (num * 2));  
+        num >>= 1;
     }
     printf("%d",sum);
     return 0;
