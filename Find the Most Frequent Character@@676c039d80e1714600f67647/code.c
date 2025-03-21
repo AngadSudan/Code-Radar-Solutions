@@ -5,7 +5,7 @@ void main(){
     char ch[100];
     fgets(ch,sizeof(ch),stdin);
 
-    int freq[26];
+    int freq[26]={0};
     for(int i=0;i<strlen(ch);i++){
         freq[ch[i]-'a']++;
     }
