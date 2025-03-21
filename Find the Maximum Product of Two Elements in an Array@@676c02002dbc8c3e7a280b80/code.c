@@ -7,7 +7,7 @@ void main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int prod=1;
+    int prod=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(j==i) continue;
