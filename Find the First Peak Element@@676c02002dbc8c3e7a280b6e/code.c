@@ -1,14 +1,4 @@
 #include <stdio.h>
-void main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    printf("%d", check(arr,n));
-    return ;
-}
 int check(int[] arr, int n){
     if(arr[0]>arr[1]) return arr[0];
     if(arr[n-2]<arr[n-1]) return arr[n-1];
@@ -18,4 +8,14 @@ int check(int[] arr, int n){
         }
     }
     return -1;
+}
+void main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    printf("%d", check(arr,n));
+    return ;
 }
