@@ -1,13 +1,17 @@
 #include <stdio.h>
 int secondlargest(int arr[], int n){
     if(n==1){ return -1;}
-
-    for(int i=n-1;i>0;i--){
-        if(arr[i]!=arr[i-1]){ 
-            return arr[i-1];
+    int start=0;
+    int end= n-1;
+    while(start<end){
+        int mid= start+end/2;
+        if(arr[mid]>arr[start]){
+            end=mid-1;
+        }else{
+            start=mid+1;
         }
     }
-    return -1;
+    return arr[start];
 }
 void main(){
     int n;
