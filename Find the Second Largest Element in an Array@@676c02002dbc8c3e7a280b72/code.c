@@ -5,7 +5,7 @@ int secondlargest(int arr[], int n){
     int end= n-1;
     while(start<end){
         int mid= start+end/2;
-        if(arr[mid]>arr[start]){
+        if(arr[mid]>=arr[start]){
             end=mid-1;
         }else{
             start=mid+1;
