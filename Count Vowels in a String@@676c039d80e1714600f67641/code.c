@@ -6,7 +6,7 @@ void main(){
     scanf("%s",ch);
     int vowels=0;
     for(int i=0;i<strlen(ch);i++){
-        if(ch[100]=='a' || ch[i]=='e' || ch[i]=='i' || ch[i]=='o' || ch=='u'){
+        if(ch[100]=='a' || ch[i]=='e' || ch[i]=='i' || ch[i]=='o' || ch[i]=='u'){
             vowels++;
         }
     }
