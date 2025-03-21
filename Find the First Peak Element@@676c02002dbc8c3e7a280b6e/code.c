@@ -1,5 +1,5 @@
 #include <stdio.h>
-int check(int[] arr, int n){
+int check(int arr[], int n){
     if(arr[0]>arr[1]) return arr[0];
     if(arr[n-2]<arr[n-1]) return arr[n-1];
     for(int i=1;i<n-1;i++){
