@@ -5,5 +5,5 @@ void main(){
     char ch[100];
     scanf("%s",ch);
 
-    printf("%s",strlen(ch));
+    printf("%d",strlen(ch));
 }
