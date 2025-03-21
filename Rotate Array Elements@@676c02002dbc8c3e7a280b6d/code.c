@@ -10,8 +10,8 @@ void main(){
     // [1,2,3,4,5]
     for(int i=0;i<k;i++){
         int temp= arr[n-1];
-        for(int i=1;i<n-1;i++){
-            arr[i]=arr[i++];
+        for(int i=1;i<n;i++){
+            arr[i]=arr[i-1];
         }
         arr[0]=temp;
     }
