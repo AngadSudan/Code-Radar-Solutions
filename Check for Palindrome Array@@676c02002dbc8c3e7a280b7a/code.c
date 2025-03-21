@@ -20,8 +20,8 @@ void main(){
     }
 
     if(palindrome(arr,n)==1){
-        printf("Yes");
+        printf("YES");
     }else{
-        printf("No");
+        printf("NO");
     }
 }
