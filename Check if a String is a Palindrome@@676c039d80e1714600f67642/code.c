@@ -3,7 +3,7 @@
 
 int palindrome(char ch[]){
     int start=0;
-    int end= strlen(ch);
+    int end= strlen(ch)-1;
     while(start<end){
         if(ch[start]!=ch[end]){
             return 0;
