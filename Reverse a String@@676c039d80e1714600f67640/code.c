@@ -4,7 +4,7 @@ void main(){
     scanf("%s",&ch);
 
     int start=0;
-    int end= ch.length();
+    int end= ch.length;
     while(start<end){
         char temp= ch[start];
         ch[start]=ch[end];
