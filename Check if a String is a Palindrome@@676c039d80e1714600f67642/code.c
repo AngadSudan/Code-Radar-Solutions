@@ -14,5 +14,5 @@ int palindrome(char ch[]){
 void main(){
     char ch[100];
     scanf("%s",ch);
-    printf("%s", palindrome==0?"No":"Yes");
+    printf("%s", palindrome(ch)==0?"No":"Yes");
 }
