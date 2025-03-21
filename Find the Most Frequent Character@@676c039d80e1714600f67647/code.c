@@ -25,5 +25,6 @@ void main(){
             ans[index++]='a'+i;
         }
     }
+    ans[index]='\0';
     printf("%s",ans);
 }
