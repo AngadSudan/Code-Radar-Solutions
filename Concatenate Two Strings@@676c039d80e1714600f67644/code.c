@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-
+void remove_space(char ch[]){
+    int n= strlen(ch);
+    if(n>0 && ch[n-1]=='\n'){
+        ch[n-1]='/0';
+    }
+}
 void main(){
     char ch1[100];
     char ch2[100];
