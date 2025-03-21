@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stirng.h>
+#include <string.h>
 
 int palindrome(char ch[]){
     int start=0;
