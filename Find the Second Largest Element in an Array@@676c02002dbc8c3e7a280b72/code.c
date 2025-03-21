@@ -1,13 +1,4 @@
 #include <stdio.h>
-void main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    printf("%d",secondlargest(arr,n));
-}
 int secondlargest(int arr[], int n){
     if(n==1){ return -1;}
 
@@ -17,4 +8,13 @@ int secondlargest(int arr[], int n){
         }
     }
     return -1;
+}
+void main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    printf("%d",secondlargest(arr,n));
 }
