@@ -16,7 +16,7 @@ int majority(int arr[], int n){
             maxCount= count>maxCount?count:maxCount;
         }
     }
-    if(count==1 && maxCount>n/2){
+    if(count==1 && n!=1 &&  maxCount>n/2){
         return -1;
     }
     return element1;
