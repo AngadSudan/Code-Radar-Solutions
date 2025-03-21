@@ -7,15 +7,7 @@ void main(){
     fgets(ch1,sizeof(ch1),stdin);
     fgets(ch2,sizeof(ch2),stdin);
     
-    char ans[200];
-    int index=0;
-    for(int i=0;i<strlen(ch1);i++){
-        ans[index]=ch1[i];
-        index++;
-    }
-    for(int i=0;i<strlen(ch2);i++){
-        ans[index]=ch2[i];
-        index++;
-    }
+    strcpy(ans,ch1);
+    strcat(ans,ch2);
     printf("%s",ans);
 }
