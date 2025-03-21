@@ -13,6 +13,9 @@ int majority(int arr[], int n){
             count++;
         }
     }
+    if(count==1 && n!=1){
+        return -1;
+    }
     return element1;
 }
 
