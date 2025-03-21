@@ -6,11 +6,15 @@ void main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    printf("%d",secondlargest(arr,n));
+}
+int secondlargest(int arr[], int n){
+    if(n==1){ return -1;}
 
-    // int start=0;
-    // int end=n-1;
-    // while(start<end){
-    //     if()
-    // }
-    printf("%d",arr[n-2]);
+    for(int i=n-1;i>0;i--){
+        if(arr[i]!=arr[i-1]){ 
+            return arr[i];
+        }
+    }
+    return -1;
 }
