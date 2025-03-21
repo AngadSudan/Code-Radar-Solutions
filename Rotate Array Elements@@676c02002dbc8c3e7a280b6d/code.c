@@ -1,4 +1,12 @@
 #include <stdio.h>
+void rotate(int[] arr){
+        int n= arr.length;
+        int temp= arr[n-1];
+        for(int i=1;i<n;i++){
+            arr[i]=arr[i-1];
+        }
+        arr[0]=temp;
+}
 void main(){
     int n,k;
     scanf("%d",&n);
@@ -7,13 +15,10 @@ void main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
+    k=k%n;
     // [1,2,3,4,5]
     for(int i=0;i<k;i++){
-        int temp= arr[n-1];
-        for(int i=1;i<n;i++){
-            arr[i]=arr[i-1];
-        }
-        arr[0]=temp;
+        rotate(arr);
     }
     for(int i=0;i<n;i++){
         printf("%d\n",arr[i]);
