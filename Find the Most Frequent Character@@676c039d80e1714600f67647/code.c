@@ -17,9 +17,10 @@ void main(){
     }
 
     char ans[26];
+    int index=0;
     for(int i=0;i<26;i++){
         if(freq[i]==maxfreq){
-            ans[i]='a'+i;
+            ans[index++]='a'+i;
         }
     }
     printf("%s",ans);
