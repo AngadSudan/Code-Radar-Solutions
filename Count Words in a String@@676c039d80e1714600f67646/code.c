@@ -5,7 +5,7 @@ void main(){
     char ch[199];
     scanf("%s",ch);
 
-    int counter=0;
+    int counter=1;
     for(int i=0;i<strlen(ch);i++){
         if(ch[i]==' '){
             counter++;
