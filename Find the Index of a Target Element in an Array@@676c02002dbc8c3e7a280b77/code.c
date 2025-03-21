@@ -1,5 +1,5 @@
 #include <stdio.h>
-int index(int arr[],int n,int target){
+int freqIdx(int arr[],int n,int target){
     for(int i=0;i<n;i++){
         if(arr[i]==target){
             return i;
@@ -16,6 +16,6 @@ void main(){
     }
     int target;
     scanf("%d",&target);
-    printf("%d",index(arr,n,target));
+    printf("%d",freqIdx(arr,n,target));
 
 }
