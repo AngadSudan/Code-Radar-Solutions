@@ -3,7 +3,7 @@
 
 void main(){
     char ch[100];
-    getch(ch,sizeof(ch),stdin);
-    
+    getc(ch,sizeof(ch),stdin);
+
     printf("%d",strlen(ch));
 }
