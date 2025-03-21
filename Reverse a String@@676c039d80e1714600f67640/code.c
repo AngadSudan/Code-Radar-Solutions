@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(){
     char ch[100];
-    scanf("%s",%ch);
+    scanf("%s",&ch);
 
     int start=0;
     int end= ch.length();
