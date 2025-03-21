@@ -3,7 +3,7 @@
 
 void main(){
     char ch[100];
-    scanf("%c",ch);
+    scanf("%s",ch);
     char word,replace;
     scanf("%c",&word);
     scanf("%c",&replace);
