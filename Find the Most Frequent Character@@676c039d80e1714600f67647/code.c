@@ -21,6 +21,7 @@ void main(){
     for(int i=0;i<26;i++){
         if(freq[i]>maxfreq){
             maxfreq= freq[i];
+
         }
     }
 
@@ -29,6 +30,7 @@ void main(){
     for(int i=0;i<26;i++){
         if(freq[i]==maxfreq){
             ans[index++]='a'+i;
+            break;
         }
     }
     ans[index]='\0';
