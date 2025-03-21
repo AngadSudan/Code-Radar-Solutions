@@ -3,7 +3,7 @@
 
 void main(){
     char ch[199];
-    fgets(ch,sizeOf(ch),stdin);
+    fgets(ch,sizeof(ch),stdin);
 
     int counter=1;
     for(int i=0;i<strlen(ch);i++){
