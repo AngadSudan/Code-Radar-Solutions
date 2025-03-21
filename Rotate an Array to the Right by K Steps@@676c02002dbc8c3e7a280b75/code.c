@@ -18,7 +18,7 @@ void main(){
     }
 }
 
-void swap(int arr, int start, int end){
+void swap(int arr[], int start, int end){
     while(start<end){
         int temp= arr[start];
         arr[start]=arr[end];
