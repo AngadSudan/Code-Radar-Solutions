@@ -13,7 +13,9 @@ void main(){
     //max num;
     int maxfreq=0;
     for(int i=0;i<26;i++){
-        maxfreq= maxfreq>freq[i]?maxfreq:freq[i];
+        if(freq[i]>maxfreq){
+            maxfreq= freq[i];
+        }
     }
 
     char ans[26];
