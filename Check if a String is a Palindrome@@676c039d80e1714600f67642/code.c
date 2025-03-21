@@ -8,6 +8,8 @@ int palindrome(char ch[]){
         if(ch[start]!=ch[end]){
             return 0;
         }
+        start++;
+        end--;
     }
     return 1;
 }
