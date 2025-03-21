@@ -10,11 +10,11 @@ void main(){
     char ans[200];
     int inde=0;
     for(int i=0;i<strlen(ch1);i++){
-        ans[index]=ans[i];
+        ans[index]=ch1[i];
         index++;
     }
     for(int i=0;i<strlen(ch2);i++){
-        ans[index]=ans[i];
+        ans[index]=ch2[i];
         index++;
     }
     printf("%s",ans);
